@@ -2,7 +2,6 @@
 <resources>
 
     <declare-styleable name="piano">
-        <attr name="piano" format="reference" />
         <attr name="width" format="reference|dimension" />
         <attr name="height" format="reference|dimension" />
         <attr name="margin" format="reference|dimension" />

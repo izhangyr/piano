@@ -16,39 +16,35 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int duration=0x7f010005;
+        public static int duration=0x7f010004;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int height=0x7f010002;
+        public static int height=0x7f010001;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int hidden=0x7f010004;
+        public static int hidden=0x7f010003;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int margin=0x7f010003;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static int piano=0x7f010000;
+        public static int margin=0x7f010002;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static int width=0x7f010001;
+        public static int width=0x7f010000;
     }
     public static final class drawable {
         public static int ic_launcher=0x7f020000;
@@ -95,19 +91,17 @@ in (inches), mm (millimeters).
            <tr><td><code>{@link #piano_height com.jambla.piano:height}</code></td><td></td></tr>
            <tr><td><code>{@link #piano_hidden com.jambla.piano:hidden}</code></td><td></td></tr>
            <tr><td><code>{@link #piano_margin com.jambla.piano:margin}</code></td><td></td></tr>
-           <tr><td><code>{@link #piano_piano com.jambla.piano:piano}</code></td><td></td></tr>
            <tr><td><code>{@link #piano_width com.jambla.piano:width}</code></td><td></td></tr>
            </table>
            @see #piano_duration
            @see #piano_height
            @see #piano_hidden
            @see #piano_margin
-           @see #piano_piano
            @see #piano_width
          */
         public static final int[] piano = {
             0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005
+            0x7f010004
         };
         /**
           <p>This symbol is the offset where the {@link com.jambla.piano.R.attr#duration}
@@ -122,7 +116,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android:duration
         */
-        public static final int piano_duration = 5;
+        public static final int piano_duration = 4;
         /**
           <p>This symbol is the offset where the {@link com.jambla.piano.R.attr#height}
           attribute's value can be found in the {@link #piano} array.
@@ -135,7 +129,7 @@ Available units are: px (pixels), dp (density-independent pixels), sp (scaled pi
 in (inches), mm (millimeters).
           @attr name android:height
         */
-        public static final int piano_height = 2;
+        public static final int piano_height = 1;
         /**
           <p>This symbol is the offset where the {@link com.jambla.piano.R.attr#hidden}
           attribute's value can be found in the {@link #piano} array.
@@ -148,7 +142,7 @@ Available units are: px (pixels), dp (density-independent pixels), sp (scaled pi
 in (inches), mm (millimeters).
           @attr name android:hidden
         */
-        public static final int piano_hidden = 4;
+        public static final int piano_hidden = 3;
         /**
           <p>This symbol is the offset where the {@link com.jambla.piano.R.attr#margin}
           attribute's value can be found in the {@link #piano} array.
@@ -161,17 +155,7 @@ Available units are: px (pixels), dp (density-independent pixels), sp (scaled pi
 in (inches), mm (millimeters).
           @attr name android:margin
         */
-        public static final int piano_margin = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.jambla.piano.R.attr#piano}
-          attribute's value can be found in the {@link #piano} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:piano
-        */
-        public static final int piano_piano = 0;
+        public static final int piano_margin = 2;
         /**
           <p>This symbol is the offset where the {@link com.jambla.piano.R.attr#width}
           attribute's value can be found in the {@link #piano} array.
@@ -184,6 +168,6 @@ Available units are: px (pixels), dp (density-independent pixels), sp (scaled pi
 in (inches), mm (millimeters).
           @attr name android:width
         */
-        public static final int piano_width = 1;
+        public static final int piano_width = 0;
     };
 }
